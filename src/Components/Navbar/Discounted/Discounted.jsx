@@ -4,6 +4,7 @@ import Logo from "../../../Assetss/tooth.png";
 import Vector from "../../../Assests/Vector.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Video1 from "./video.mp4";
 
 const Data = [
   { animation: "fadeInFromLeft", text: "Efficiency" },
@@ -42,9 +43,11 @@ const Discounted = () => {
 
   return (
     <div className="discounted-container">
+      <video src={Video1} autoPlay loop muted className="back-video" />
+      
       <div className="left-side2" data-aos="zoom-in">
         <p className={data.animation}>{data.text}</p>
-        <img src={Vector} alt="Image" className="logo3" />
+        
       </div>
       <div
         className="right-side2"

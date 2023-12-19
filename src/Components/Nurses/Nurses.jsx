@@ -40,6 +40,8 @@ const Nurses = () => {
   }, [counter]);
   return (
     <div className="nurses-container">
+      <div className="background-image-container"></div>
+
       <div
         className="left-section1"
         data-aos="fade-right"

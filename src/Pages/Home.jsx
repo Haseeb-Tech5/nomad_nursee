@@ -6,6 +6,7 @@ import Nurses from "../Components/Nurses/Nurses";
 import Discounted from "../Components/Navbar/Discounted/Discounted";
 import Testimonial from "../Components/Testimonial/Testimonial";
 import Blog from "../Components/Blog/Blog";
+import Experienece from "../Components/Experience/Experienece";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Discounted />
       <Testimonial />
       <Blog />
+      <Experienece />
     </div>
   );
 };

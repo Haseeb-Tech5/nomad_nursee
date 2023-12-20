@@ -84,6 +84,7 @@
   height: 100%;
   display: flex;
 }
+
 .re {
   flex: 80;
   /* background-color: pink; */
@@ -122,6 +123,14 @@
   justify-content: center;
   align-items: center;
 }
+.le-image1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.le-image1 img {
+  width: 60px;
+}
 .form-container {
   width: 100%;
   max-width: 550px;
@@ -134,7 +143,53 @@ label {
   font-size: 18px;
   line-height: 28px;
 }
-
+select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  border: 1px solid #e5e7eb;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 8px;
+  color: #6b7280;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+/* select option[value=""] {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 25px;
+  padding-left: 10px;
+  color: #6b7280;
+} */
+select option:hover {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #ae9c7f !important;
+}
+select option:active,
+select option:hover,
+select option :focus {
+  background-color: #ae9c7f !important;
+}
+select option {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  padding-left: 10px;
+  /* background-color: red; */
+  color: #6b7280;
+}
 input {
   width: 100%;
   height: 60px;

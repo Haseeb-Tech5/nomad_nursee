@@ -9,8 +9,10 @@ import Link from "../../Assetss/linkedin.png";
 import Vector1 from "../../Assetss/Vector (2).png";
 import Img1 from "../../Assetss/group3.png";
 import Img2 from "../../Assetss/group2.png";
+import Img3 from "../../Assetss/Group 4.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
 
 const Touch = () => {
   useEffect(() => {
@@ -52,8 +54,8 @@ const Touch = () => {
           <div className="left-section-content">
             <div className="left-section-content-container">
               <div className="le">
-                <div className="le-image">
-                  <img src={Img} alt="" />
+                <div className="le-image1">
+                  <img src={Img3} alt="" />
                 </div>
               </div>
               <div className="re">
@@ -111,15 +113,14 @@ const Touch = () => {
                 <div className="flex-item">
                   <label htmlFor="role">Your Role</label>
                   <div className="good">
-                    <input
-                      type="text"
-                      id="role"
-                      name="role"
-                      placeholder="Choose your role"
-                    />
-                    <div className="role-img">
-                      <img src={Vector1} alt="" />
-                    </div>
+                    <select id="role" name="role" defaultValue="">
+                      <option value="" disabled hidden>
+                        Choose your role
+                      </option>
+                      <option value="role1">Role 1</option>
+                      <option value="role2">Role 2</option>
+                      <option value="role3">Role 3</option>
+                    </select>
                   </div>
                 </div>
               </div>

@@ -12,25 +12,25 @@ import Touch from "../Components/Touch/Touch";
 const Home = () => {
   return (
     <div
-      style={{
-        width: "100%",
-        overflow: "hidden",
-        display: "flex",
-        justifyContent: "center",
-      }}
+    // style={{
+    //   width: "100%",
+    //   overflow: "hidden",
+    //   display: "flex",
+    //   justifyContent: "center",
+    // }}
     >
-      <div style={{ maxWidth: "1440px" }}>
-        <Navbar />
-        <Video />
-        <Story />
-        <Nurses />
-        <Discounted />
-        <Testimonial />
-        <Blog />
-        <Experienece />
-        <Register />
-        <Touch />
-      </div>
+      {/* <div style={{ maxWidth: "1440px" }}> */}
+      <Navbar />
+      <Video />
+      <Story />
+      <Nurses />
+      <Discounted />
+      <Testimonial />
+      <Blog />
+      <Experienece />
+      <Register />
+      <Touch />
+      {/* </div> */}
     </div>
   );
 };

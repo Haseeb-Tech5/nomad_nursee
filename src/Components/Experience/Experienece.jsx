@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 import "./Experience.css";
 import Phone from "../../Assetss/Iphone.svg";
 import Vector from "../../Assetss/Vector 57.png";
-import logo1 from "../../Assetss/Vector.png";
+import logo1 from "../../Assests/Vector (3).png";
+import logo2 from "../../Assests/Group.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const Experience = () => {
@@ -32,12 +33,16 @@ const Experience = () => {
         </div>
         <div className="button-container">
           <button>
-            <img src={logo1} alt="Button 1 Logo" />
-            <span>Download App</span>
+            <div className="buttons">
+              <img src={logo1} alt="Button 1 Logo" />
+              <span>Download App</span>
+            </div>
           </button>
           <button>
-            <img src={logo1} alt="Button 2 Logo" />
-            <span>Download App</span>
+            <div className="buttons">
+              <img src={logo2} alt="Button 1 Logo" />
+              <span>Download App</span>
+            </div>
           </button>
         </div>
       </div>

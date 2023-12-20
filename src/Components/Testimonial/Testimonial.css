@@ -330,8 +330,8 @@
     margin-bottom: 10px;
   }
 }
-@media (min-width: 1025px) and (max-width: 1440px) {
+@media (min-width: 1025px) and (max-width: 2000px) {
   .testimonial-heading {
-    margin-top: -32px !important;
+    margin-top: -82px !important;
   }
 }

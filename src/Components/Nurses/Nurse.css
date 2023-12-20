@@ -1,9 +1,10 @@
 .nurses-container {
   display: flex;
   background-color: #f5f3ef;
-  background-image: url("../../Assetss/Capa\ 1.png");
+  background-image: url("../../Assetss/Capawad\ 2.png");
   background-size: cover;
-  background-position: center;
+  background-position-x: 0px;
+  background-position-y: 40%;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -120,42 +121,42 @@
 }
 
 .fadeInFromRight {
-  animation: fadeInFromRight 400ms ease-out;
+  animation: fadeInFromRight 800ms ease-out;
   animation-fill-mode: forwards;
 }
 
 .fadeOutToBottom {
-  animation: fadeOutToBottom 400ms ease-in;
+  animation: fadeOutToBottom 800ms ease-in;
   animation-fill-mode: forwards;
 }
 
 .fadeInFromBottom {
-  animation: fadeInFromBottom 400ms ease-out;
+  animation: fadeInFromBottom 800ms ease-out;
   animation-fill-mode: forwards;
 }
 
 .fadeOutToTop {
-  animation: fadeOutToTop 400ms ease-in;
+  animation: fadeOutToTop 800ms ease-in;
   animation-fill-mode: forwards;
 }
 
 .fadeInFromTop {
-  animation: fadeInFromTop 400ms ease-out;
+  animation: fadeInFromTop 800ms ease-out;
   animation-fill-mode: forwards;
 }
 
 .fadeOutToLeft {
-  animation: fadeOutToLeft 400ms ease-in;
+  animation: fadeOutToLeft 800ms ease-in;
   animation-fill-mode: forwards;
 }
 
 .fadeInFromLeft {
-  animation: fadeInFromLeft 400ms ease-out;
+  animation: fadeInFromLeft 500ms ease-out;
   animation-fill-mode: forwards;
 }
 
 .fadeOutToRight {
-  animation: fadeOutToRight 400ms ease-in;
+  animation: fadeOutToRight 800ms ease-in;
   animation-fill-mode: forwards;
 }
 
@@ -765,6 +766,12 @@
 @media (min-width: 901px) and (max-width: 1024px) {
   .nurses-container {
     padding: 0px;
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: 70%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 400px;
   }
   .logo1 {
     width: 30px !important;
@@ -823,6 +830,11 @@
 @media (min-width: 1025px) and (max-width: 1170px) {
   .nurses-container {
     padding: 0px;
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+    position: relative;
   }
   .logo1 {
     width: 45px !important;
@@ -872,6 +884,12 @@
 @media (min-width: 1171px) and (max-width: 1440px) {
   .nurses-container {
     padding: 0px;
+    height: 500px;
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+    position: relative;
   }
   .logo1 {
     width: 50px !important;
@@ -919,6 +937,12 @@
 @media (min-width: 1441px) and (max-width: 2000px) {
   .nurses-container {
     padding: 0px;
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: 80%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 500px;
   }
   .logo1 {
     width: 50px !important;
@@ -1012,7 +1036,7 @@
   }
 } */
 
-/* @media (min-width: 1367px) and (max-width: 1800px) {
+/* @media (min-width: 1367px) and (max-width: 11200px) {
   .nurses-container {
     padding: 0px; 
   }

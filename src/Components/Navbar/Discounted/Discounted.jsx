@@ -43,11 +43,12 @@ const Discounted = () => {
 
   return (
     <div className="discounted-container">
-      <video src={Video1} autoPlay loop muted className="back-video" />
-      
+      <div style={{ maxWidth: "1440px" }}>
+        <video src={Video1} autoPlay loop muted className="back-video" />
+      </div>
+
       <div className="left-side2" data-aos="zoom-in">
         <p className={data.animation}>{data.text}</p>
-        
       </div>
       <div
         className="right-side2"

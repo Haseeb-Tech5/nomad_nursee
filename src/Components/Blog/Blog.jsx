@@ -1,19 +1,35 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Blog.css";
 import Line from "../../Assests/Vector.png";
 import Img from "../../Assetss/pexels-anna-shvets-3845761 2 (2).png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Blog = () => {
+  useEffect(() => {
+    AOS.init({ easing: "ease-out" });
+  }, []);
   return (
     <div className="whole-Container">
       <div className="blog-container">
-        <h2 className="blog">Blog</h2>
-        <div className="blog-image-container">
+        <h2 className="blog" data-aos="zoom-in" data-aos-duration="800">
+          Blog
+        </h2>
+        <div
+          className="blog-image-container"
+          data-aos="zoom-in"
+          data-aos-duration="800"
+        >
           <img src={Line} alt="Image" />
         </div>
       </div>
       <div className="blog-img-cont">
         <div className="blog-cards-cont">
-          <div className="blog-card">
+          <div
+            className="blog-card"
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-duration="600"
+          >
             <div className="card-blog1">
               <div className="blog-card-img">
                 <img src="doctor.png" alt="" />
@@ -35,7 +51,12 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="blog-cards">
+          <div
+            className="blog-cards"
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-duration="600"
+          >
             <div className="blog-card1">
               <div className="blog-cardd">
                 <div className="blog-card-img2">

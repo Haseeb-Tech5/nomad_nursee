@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Line from "../../Assetss/Line 91.png";
 
 const Testimonial = () => {
   useEffect(() => {
@@ -120,6 +121,9 @@ const Testimonial = () => {
             {"<"}
           </div>
         </div>
+      </div>
+      <div className="key-container">
+        <img src={Line} alt="" />
       </div>
     </div>
   );
